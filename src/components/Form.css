@@ -1,0 +1,29 @@
+body {
+  background-color: rgba(47, 111, 172, 0.651);
+}
+
+.outlayer {
+  background-color: rgb(82, 17, 17);
+  padding: 5%;
+  margin-top: 10%;
+  border-radius: 5px;
+}
+
+.separator {
+  margin: 20px;
+  visibility: hidden;
+}
+
+.imageinput::-webkit-file-upload-button {
+  background-color: rgb(10, 59, 105);
+  color: white;
+  border-radius: 5px;
+  border: solid black 0.5px;
+  padding: 12px;
+}
+
+.imageinput {
+  border: solid skyblue 1.5px;
+  border-radius: 5px;
+  overflow: hidden;
+}
